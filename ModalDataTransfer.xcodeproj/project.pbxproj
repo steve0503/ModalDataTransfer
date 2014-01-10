@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00167417187FBE3000C2A9B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00167416187FBE3000C2A9B0 /* Foundation.framework */; };
+		00167419187FBE3000C2A9B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00167418187FBE3000C2A9B0 /* CoreGraphics.framework */; };
+		0016741B187FBE3000C2A9B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0016741A187FBE3000C2A9B0 /* UIKit.framework */; };
+		00167421187FBE3000C2A9B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0016741F187FBE3000C2A9B0 /* InfoPlist.strings */; };
+		00167423187FBE3000C2A9B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00167422187FBE3000C2A9B0 /* main.m */; };
+		00167427187FBE3000C2A9B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00167426187FBE3000C2A9B0 /* AppDelegate.m */; };
+		0016742A187FBE3000C2A9B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00167428187FBE3000C2A9B0 /* Main.storyboard */; };
+		0016742D187FBE3000C2A9B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0016742C187FBE3000C2A9B0 /* ViewController.m */; };
+		0016742F187FBE3000C2A9B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0016742E187FBE3000C2A9B0 /* Images.xcassets */; };
+		00167436187FBE3000C2A9B0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00167435187FBE3000C2A9B0 /* XCTest.framework */; };
+		00167437187FBE3000C2A9B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00167416187FBE3000C2A9B0 /* Foundation.framework */; };
+		00167438187FBE3000C2A9B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0016741A187FBE3000C2A9B0 /* UIKit.framework */; };
+		00167440187FBE3000C2A9B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0016743E187FBE3000C2A9B0 /* InfoPlist.strings */; };
+		00167442187FBE3000C2A9B0 /* ModalDataTransferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00167441187FBE3000C2A9B0 /* ModalDataTransferTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00167439187FBE3000C2A9B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0016740B187FBE3000C2A9B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00167412187FBE3000C2A9B0;
+			remoteInfo = ModalDataTransfer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00167413187FBE3000C2A9B0 /* ModalDataTransfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalDataTransfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00167416187FBE3000C2A9B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00167418187FBE3000C2A9B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0016741A187FBE3000C2A9B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0016741E187FBE3000C2A9B0 /* ModalDataTransfer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModalDataTransfer-Info.plist"; sourceTree = "<group>"; };
+		00167420187FBE3000C2A9B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00167422187FBE3000C2A9B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00167424187FBE3000C2A9B0 /* ModalDataTransfer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ModalDataTransfer-Prefix.pch"; sourceTree = "<group>"; };
+		00167425187FBE3000C2A9B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00167426187FBE3000C2A9B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00167429187FBE3000C2A9B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0016742B187FBE3000C2A9B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0016742C187FBE3000C2A9B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0016742E187FBE3000C2A9B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00167434187FBE3000C2A9B0 /* ModalDataTransferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModalDataTransferTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00167435187FBE3000C2A9B0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0016743D187FBE3000C2A9B0 /* ModalDataTransferTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModalDataTransferTests-Info.plist"; sourceTree = "<group>"; };
+		0016743F187FBE3000C2A9B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00167441187FBE3000C2A9B0 /* ModalDataTransferTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalDataTransferTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00167410187FBE3000C2A9B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00167419187FBE3000C2A9B0 /* CoreGraphics.framework in Frameworks */,
+				0016741B187FBE3000C2A9B0 /* UIKit.framework in Frameworks */,
+				00167417187FBE3000C2A9B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00167431187FBE3000C2A9B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00167436187FBE3000C2A9B0 /* XCTest.framework in Frameworks */,
+				00167438187FBE3000C2A9B0 /* UIKit.framework in Frameworks */,
+				00167437187FBE3000C2A9B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0016740A187FBE3000C2A9B0 = {
+			isa = PBXGroup;
+			children = (
+				0016741C187FBE3000C2A9B0 /* ModalDataTransfer */,
+				0016743B187FBE3000C2A9B0 /* ModalDataTransferTests */,
+				00167415187FBE3000C2A9B0 /* Frameworks */,
+				00167414187FBE3000C2A9B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00167414187FBE3000C2A9B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00167413187FBE3000C2A9B0 /* ModalDataTransfer.app */,
+				00167434187FBE3000C2A9B0 /* ModalDataTransferTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00167415187FBE3000C2A9B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00167416187FBE3000C2A9B0 /* Foundation.framework */,
+				00167418187FBE3000C2A9B0 /* CoreGraphics.framework */,
+				0016741A187FBE3000C2A9B0 /* UIKit.framework */,
+				00167435187FBE3000C2A9B0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0016741C187FBE3000C2A9B0 /* ModalDataTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				00167425187FBE3000C2A9B0 /* AppDelegate.h */,
+				00167426187FBE3000C2A9B0 /* AppDelegate.m */,
+				00167428187FBE3000C2A9B0 /* Main.storyboard */,
+				0016742B187FBE3000C2A9B0 /* ViewController.h */,
+				0016742C187FBE3000C2A9B0 /* ViewController.m */,
+				0016742E187FBE3000C2A9B0 /* Images.xcassets */,
+				0016741D187FBE3000C2A9B0 /* Supporting Files */,
+			);
+			path = ModalDataTransfer;
+			sourceTree = "<group>";
+		};
+		0016741D187FBE3000C2A9B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0016741E187FBE3000C2A9B0 /* ModalDataTransfer-Info.plist */,
+				0016741F187FBE3000C2A9B0 /* InfoPlist.strings */,
+				00167422187FBE3000C2A9B0 /* main.m */,
+				00167424187FBE3000C2A9B0 /* ModalDataTransfer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0016743B187FBE3000C2A9B0 /* ModalDataTransferTests */ = {
+			isa = PBXGroup;
+			children = (
+				00167441187FBE3000C2A9B0 /* ModalDataTransferTests.m */,
+				0016743C187FBE3000C2A9B0 /* Supporting Files */,
+			);
+			path = ModalDataTransferTests;
+			sourceTree = "<group>";
+		};
+		0016743C187FBE3000C2A9B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0016743D187FBE3000C2A9B0 /* ModalDataTransferTests-Info.plist */,
+				0016743E187FBE3000C2A9B0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00167412187FBE3000C2A9B0 /* ModalDataTransfer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00167445187FBE3000C2A9B0 /* Build configuration list for PBXNativeTarget "ModalDataTransfer" */;
+			buildPhases = (
+				0016740F187FBE3000C2A9B0 /* Sources */,
+				00167410187FBE3000C2A9B0 /* Frameworks */,
+				00167411187FBE3000C2A9B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModalDataTransfer;
+			productName = ModalDataTransfer;
+			productReference = 00167413187FBE3000C2A9B0 /* ModalDataTransfer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00167433187FBE3000C2A9B0 /* ModalDataTransferTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00167448187FBE3000C2A9B0 /* Build configuration list for PBXNativeTarget "ModalDataTransferTests" */;
+			buildPhases = (
+				00167430187FBE3000C2A9B0 /* Sources */,
+				00167431187FBE3000C2A9B0 /* Frameworks */,
+				00167432187FBE3000C2A9B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0016743A187FBE3000C2A9B0 /* PBXTargetDependency */,
+			);
+			name = ModalDataTransferTests;
+			productName = ModalDataTransferTests;
+			productReference = 00167434187FBE3000C2A9B0 /* ModalDataTransferTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0016740B187FBE3000C2A9B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = steve;
+				TargetAttributes = {
+					00167433187FBE3000C2A9B0 = {
+						TestTargetID = 00167412187FBE3000C2A9B0;
+					};
+				};
+			};
+			buildConfigurationList = 0016740E187FBE3000C2A9B0 /* Build configuration list for PBXProject "ModalDataTransfer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0016740A187FBE3000C2A9B0;
+			productRefGroup = 00167414187FBE3000C2A9B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00167412187FBE3000C2A9B0 /* ModalDataTransfer */,
+				00167433187FBE3000C2A9B0 /* ModalDataTransferTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00167411187FBE3000C2A9B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0016742F187FBE3000C2A9B0 /* Images.xcassets in Resources */,
+				00167421187FBE3000C2A9B0 /* InfoPlist.strings in Resources */,
+				0016742A187FBE3000C2A9B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00167432187FBE3000C2A9B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00167440187FBE3000C2A9B0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0016740F187FBE3000C2A9B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0016742D187FBE3000C2A9B0 /* ViewController.m in Sources */,
+				00167427187FBE3000C2A9B0 /* AppDelegate.m in Sources */,
+				00167423187FBE3000C2A9B0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00167430187FBE3000C2A9B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00167442187FBE3000C2A9B0 /* ModalDataTransferTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0016743A187FBE3000C2A9B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00167412187FBE3000C2A9B0 /* ModalDataTransfer */;
+			targetProxy = 00167439187FBE3000C2A9B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0016741F187FBE3000C2A9B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00167420187FBE3000C2A9B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		00167428187FBE3000C2A9B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00167429187FBE3000C2A9B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0016743E187FBE3000C2A9B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0016743F187FBE3000C2A9B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00167443187FBE3000C2A9B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00167444187FBE3000C2A9B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00167446187FBE3000C2A9B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalDataTransfer/ModalDataTransfer-Prefix.pch";
+				INFOPLIST_FILE = "ModalDataTransfer/ModalDataTransfer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		00167447187FBE3000C2A9B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalDataTransfer/ModalDataTransfer-Prefix.pch";
+				INFOPLIST_FILE = "ModalDataTransfer/ModalDataTransfer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		00167449187FBE3000C2A9B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ModalDataTransfer.app/ModalDataTransfer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalDataTransfer/ModalDataTransfer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ModalDataTransferTests/ModalDataTransferTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0016744A187FBE3000C2A9B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ModalDataTransfer.app/ModalDataTransfer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalDataTransfer/ModalDataTransfer-Prefix.pch";
+				INFOPLIST_FILE = "ModalDataTransferTests/ModalDataTransferTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0016740E187FBE3000C2A9B0 /* Build configuration list for PBXProject "ModalDataTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00167443187FBE3000C2A9B0 /* Debug */,
+				00167444187FBE3000C2A9B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00167445187FBE3000C2A9B0 /* Build configuration list for PBXNativeTarget "ModalDataTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00167446187FBE3000C2A9B0 /* Debug */,
+				00167447187FBE3000C2A9B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00167448187FBE3000C2A9B0 /* Build configuration list for PBXNativeTarget "ModalDataTransferTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00167449187FBE3000C2A9B0 /* Debug */,
+				0016744A187FBE3000C2A9B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0016740B187FBE3000C2A9B0 /* Project object */;
+}
