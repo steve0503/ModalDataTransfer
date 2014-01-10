@@ -21,6 +21,7 @@
 		00167438187FBE3000C2A9B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0016741A187FBE3000C2A9B0 /* UIKit.framework */; };
 		00167440187FBE3000C2A9B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0016743E187FBE3000C2A9B0 /* InfoPlist.strings */; };
 		00167442187FBE3000C2A9B0 /* ModalDataTransferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00167441187FBE3000C2A9B0 /* ModalDataTransferTests.m */; };
+		0016744D187FBEFF00C2A9B0 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0016744C187FBEFF00C2A9B0 /* ModalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0016743D187FBE3000C2A9B0 /* ModalDataTransferTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModalDataTransferTests-Info.plist"; sourceTree = "<group>"; };
 		0016743F187FBE3000C2A9B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00167441187FBE3000C2A9B0 /* ModalDataTransferTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalDataTransferTests.m; sourceTree = "<group>"; };
+		0016744B187FBEFF00C2A9B0 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		0016744C187FBEFF00C2A9B0 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				00167425187FBE3000C2A9B0 /* AppDelegate.h */,
 				00167426187FBE3000C2A9B0 /* AppDelegate.m */,
 				00167428187FBE3000C2A9B0 /* Main.storyboard */,
+				0016744B187FBEFF00C2A9B0 /* ModalViewController.h */,
+				0016744C187FBEFF00C2A9B0 /* ModalViewController.m */,
 				0016742B187FBE3000C2A9B0 /* ViewController.h */,
 				0016742C187FBE3000C2A9B0 /* ViewController.m */,
 				0016742E187FBE3000C2A9B0 /* Images.xcassets */,
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0016744D187FBEFF00C2A9B0 /* ModalViewController.m in Sources */,
 				0016742D187FBE3000C2A9B0 /* ViewController.m in Sources */,
 				00167427187FBE3000C2A9B0 /* AppDelegate.m in Sources */,
 				00167423187FBE3000C2A9B0 /* main.m in Sources */,
